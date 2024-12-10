@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="bg-white ">
+        <!-- Logo -->
+        <div class=" flex justify-between items-center">
+            <div>
+                <a href="#logo">
+                    <img src="../assets/Askmeidentity -logo.png" alt="logo">
+                </a>
+            </div>
+
+            <!-- Links -->
+            <div class="flex space-x-8 px-4">
+                <a href="#home" class="font-Righteous text-black text-xl">Home</a>
+                <a href="#about" class="font-Righteous  text-black text-xl"> About</a>
+                <a href="#courses" class="font-Righteous  text-black text-xl">Courses</a>
+                <a href="#contact" class="font-Righteous  text-black text-xl">Contact</a>
+            </div>
+
+            <!-- icons -->
+            <div class="flex relative space-x-4 px-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                </svg>
+
+                <div class="w-4 h-4 bg-emerald-400 rounded-full m-3 text-white text-center text-xs absolute -inset-y-5">0</div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+            
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>   
+            </div>
+
+            <!-- Login & Signup -->
+             <div class="flex space-x-8 items-center px-4">
+                <a href="#login" class=" text-black text-xl underline hover:underline-offset-8">Login</a>
+                <button class="bg-gradient-to-r from-indigo-500 to-purple-500 px-4 py-2 text-white text-xl rounded">Signup</button>
+             </div>
+        </div>
+    </nav>
+
+
+    <!-- Header Section -->
+    <header class=" bg-gradient-to-tr  from-violet-500 to-indigo-800 ">
+        <div class="flex flex-col-reverse md:flex-row items-center justify-between relative">
+
+            <!-- three border -->
+            <div class="h-64 w-48  absolute bottom-0 right-1/2 border border-x-gray-300 rounded-t-full border-b-0 items-center ">
+                <div class="h-60 w-40 border border-x-gray-300 rounded-t-full border-dashed  border-b-0 m-3.5">
+                    <div class="h-56 w-32 border border-x-gray-300 rounded-t-full border-b-0 m-4"></div>
+                </div>
+            </div>
+
+            <!-- Content-1-->
+            <div class="md:w-1/2 pl-28 ">
+                <p class=" text-white font-Righteous text-lg  tracking-wider"> SUCCESSFUL COACHES ARE VISIONARIES</p>
+
+                <h1 class=" text-white text-6xl font-Righteous py-10 ">
+                    Good 
+                    <span class="text-blue-700 font-Righteous leading-6">Coaching</span> 
+                    is<br> good ,teaching &<br> nothing else.
+                </h1>
+
+                <div class=" flex  items-center pb-8">
+                    <button class="text-white  text-1xl border-2 border-white px-5 py-2 rounded-md font-Righteous">view Courses</button>
+                    <p class="text-white   text-1xl font-Righteous pl-8">Get Free consultation</p>
+                </div>
+
+                <!-- input-btn -->
+                <div class="flex w-2/3 rounded bg-white font-Righteous  ">
+                    <input type="text" placeholder="what do you want to learn today?"
+                    class="w-4/5   border-none bg-transparent text-sm
+                    px-5 py-6 outline-none focus:outline-none">
+    
+                    <button class="flex justify-end items-center bg-gradient-to-r from-indigo-800 to-purple-500 px-3 py-2 m-3 text-white rounded text-1xl font-Righteous">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>Search
+                    </button>
+                </div>
+            </div>
+
+            <!--content-2 -->
+            <div class="md:w-1/2 flex relative justify-center">
+
+                <div class="absolute top-28 left-0 ">
+                   <div class="flex w-72 ">
+                        <div class="mr-4 ">
+                            <div class="w-0.5 h-12 bg-cyan-400 m-2"></div>
+                            <div class="w-5 h-5 bg-cyan-400 rounded-full relative" > 
+                                <p class="text-2xl  items-center  text-white absolute left-1.5 top-0">"</p>
+                            </div>
+                            <div class="w-0.5 h-12 bg-cyan-400 m-2"></div>
+                        </div>
+
+                        <div class=" flex flex-col justify-center pr-10 ">
+                            <div class="text-white font-Righteous text-xs ">shyam</div>
+                            <p class="text-white font-Righteous py-3 text-xs leading-5"> In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.</p>
+                            <p class="text-cyan-400 text-xs">4.9</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- img -->
+                <div class="">
+                    <div class="gradient blur-3xl w-3/4 h-3/4 rounded-full absolute bottom-0 right-0 ml-32"></div>
+        
+                    <div class="pb-2">
+                        <img src="../assets/brunette-woman-hugging-laptop 1.png" alt="" class="mix-blend-multiply">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- apps-logos -->
+    <div class="w-full bg-gradient-to-tr  from-violet-500 to-indigo-800 p-5 "> 
+        <div class="flex flex-wrap justify-around items-center">
+
+            <!-- spotify -->
+            <a href="#spotify">
+                <img src="../assets/spotify.png" alt="spotify" class="p-3">
+            </a>
+            <!-- amazon -->
+            <a href="#amazon">
+                <img src="../assets/amazon.png"  alt="amazon" class="p-3">
+            </a>
+            <!-- spotify -->
+            <a href="#spotify">
+                <img src="../assets/spotify.png" alt="spotify" class="p-3">
+            </a>
+            <!-- cisco -->
+            <a href="#cisco">
+                <img src="../assets/cisco.png" alt="cisco" class="p-3">
+            </a>
+            <!-- logitech -->
+            <a href="#logitech">
+                <img src="../assets/logitech.png" alt="logitech" class="p-3">
+            </a>
+            <!-- amazon -->
+            <a href="#amazon">
+                <img src="../assets/amazon.png" alt="amazon" class="p-3">
+            </a> 
+        </div>
+    </div>
+
+
+
+    <div class="bg-gradient-to-b from-white to-sky-100">
+        <!-- Course -->
+        <div class="py-20 px-10">
+
+            <!-- heading -->
+            <div class=" flex flex-col justify-center p-10 relative ">
+                <div class="w-16 h-16 absolute top-10 left-16 border-[15px] rounded-full  border-blue-200"></div>
+                <h1 class=" flex justify-center font-Righteous text-5xl">Featured <span class="text-blue-700">Course</span></h1>
+                <div class=" flex justify-center font-Righteous text-2xl pt-3 tracking-widest">
+                    THE FEATTURE COURSE ARE WE INVENTED OUR TEACHING PART
+                </div>
+            </div>
+
+            <div class=" flex flex-wrap justify-around mt-20">
+                <!-- location-book-img -->
+                <div class=" bg-white m-5 rounded-xl ">
+                    <img src="../assets/location-book.png" alt="book">
+                    <div class="flex justify-between p-5 ">
+                        <p class="font-Saira text-sm">1,957 students</p>
+                        <p class="font-Saira text-sm">01h 59m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5">Motion Graphics:Create a Nice<br>Typography Animation</h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+    
+                <!-- puzzle-img -->
+                <div class=" bg-white m-5 rounded-xl">
+                    <img src="../assets/puzzle.png" alt="puzzle">
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira text-sm">9,575 Students</p>
+                        <p class="font-Saira text-sm">01h 59m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5 ">Advance PHP knowledge with JS to<br>make smart web</h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+                
+                <!-- Rocket-img -->
+                <div class=" bg-white m-5 rounded-xl">
+                    <img src="../assets/rocket.png" alt="rocket">
+                    <div class="flex justify-between p-5 ">
+                        <p class="font-Saira text-sm">2957 Students</p>
+                        <p class="font-Saira text-sm">02h 49m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5 ">Education Software and PHP JS<br>system script</h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+            </div>
+
+            <div class=" flex flex-wrap justify-around">
+                <!-- coins-img -->
+                <div class=" bg-white m-5 rounded-xl ">
+                    <img src="../assets/coins.png" alt="coins">
+                    <div class="flex justify-between p-5 ">
+                        <p class="font-Saira text-sm">5,457 Students</p>
+                        <p class="font-Saira text-sm">01h 49m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5">The Complete Financial Analyst<br>Training & Investing </h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+    
+                <!-- aeroplane-img -->
+                <div class=" bg-white m-5 rounded-xl">
+                    <img src="../assets/aeroplane.png" alt="aeroplane">
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira text-sm">595 Students</p>
+                        <p class="font-Saira text-sm">01h 49m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5 ">Marketing 2023:complete Guide to<br>Instagram Growth</h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+                
+                <!-- bank-img -->
+                <div class=" bg-white m-5 rounded-xl">
+                    <img src="../assets/bank.png" alt="bank">
+                    <div class="flex justify-between p-5 ">
+                        <p class="font-Saira text-sm">458 Students</p>
+                        <p class="font-Saira text-sm">03h 00m</p>
+                    </div>
+    
+                    <h1 class="font-Saira font-semibold text-2xl px-5 ">Learn 3D Modelling and design<br>For beginners </h1>
+    
+                    <div class="flex justify-between p-5">
+                        <p class="font-Saira font-semibold text-2xl  cursor-pointer text-slate-600">Rs.499</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>   
+                </div>
+            </div>
+
+            <!-- Explore Courses btn -->
+            <div class="flex justify-center">
+                <button class="flex items-center  bg-gradient-to-r from-indigo-800 to-purple-500 px-4 py-3 mt-16 text-white rounded-lg text-1xl font-Righteous">Explore Courses    
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- placement training -->
+    <div class=" relative bg-gradient-to-r w-full from-blue-300 from-10%  to-indigo-800 to-80%">
+        <div class="flex flex-col justify-center p-28">
+            <h1 class=" flex justify-center font-Righteous text-5xl text-white tracking-wide"> Why<span class="text-blue-700 px-3">Learn</span> With Our Courses? </h1>
+            <p class=" flex justify-center font-Saira text-white text-2xl text-center p-6 ">We are providing the best courses and top classes.And<br>extradinery Placement training.....</p>
+        </div>
+
+        
+
+        <div class=" flex flex-wrap justify-center pb-20 ">
+
+            <!-- learn Icon -->
+            <div class=" flex flex-col items-center text-center  px-20 m-5"> 
+                <img src="../assets/learn Icon (1).png" alt="learn" width="100px">
+                <h3 class="font-Righteous text-white text-2xl py-8">01.Learn</h3>
+                <p class="font-Righteous text-white text-lg ">Learn continually. There is always<br>"one more thing" to learn.</p>
+            </div> 
+            
+            
+            <!-- graduate -->
+            <div class=" flex flex-col items-center text-center border border-dashed border-y-transparent px-32 m-5">
+                <img src="../assets/graduate Icon(2).png" alt="graduate" width="100px" >
+                <h3 class="font-Righteous text-white text-2xl py-8">02.Graduate</h3>
+                <p  class="font-Righteous text-white text-lg ">Be bold,be courageous,<br>be your best.</p>
+            </div>
+
+            <!-- work -->
+            <div class=" flex flex-col items-center text-center px-20 m-5">
+                <img src="../assets/work Vector (3).png" alt="work" width="100px">
+                <h3 class="font-Righteous text-white text-2xl py-8">03.Work</h3>
+                <p  class="font-Righteous text-white text-lg ">Great companies are built in<br>the office,with hard work put <br>in by team.</p>
+           </div>
+        </div>   
+        
+        <!-- three border -->
+        <div class="h-48 w-48  absolute top-40 -left-10 border border-x-gray-300 border-l-0 rounded-r-full items-center ">
+            <div class="h-44 w-44 border border-x-gray-300 rounded-r-full border-dashed border-l-0 m-2">
+                <div class="h-40 w-40 border border-x-gray-300 border-l-0 rounded-r-full m-2"></div>
+            </div>
+        </div> 
+    </div>
+
+
+    <!-- Categories -->
+    <div class="bg-gradient-to-b  from-white to-sky-100">
+
+        <div class="p-16 ">
+            <h1 class=" flex justify-center font-Righteous text-5xl gap-2">Top <span class="text-blue-700">Categories</span></h1>
+            <p class=" flex justify-center font-Righteous text-2xl pt-3 text-slate-600">100+ unique online course list designs</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-3 p-16 ">
+
+            <!-- digtal -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center p-10">
+                <img src="../assets/digtal.png" alt="digtal" class="">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">Digtal<br>Marketing</h2>
+                <p class="font-Righteous p-5 text-slate-600">25 Courses</p>
+            </div>
+
+            <!-- web -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center p-10 ">
+                <img src="../assets/web.png" alt="web">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">Web<br>Development</h2>
+                <p class="font-Righteous p-5 text-slate-600">16 Courses</p>
+            </div>
+
+            <!-- art -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center  p-10 ">
+                <img src="../assets/art.png" alt="art">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">Art &<br>Humanities</h2>
+                <p class="font-Righteous p-5 text-slate-600">76 Courses</p>
+            </div>
+
+            <!-- personal -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center p-10 ">
+                <img src="../assets/personal.png" alt="personal">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">personal<br>Development</h2>
+                <p class="font-Righteous p-5 text-slate-600">22 Courses</p>
+            </div>
+
+            <!-- it -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center p-10 ">
+                <img src="../assets/it.png" alt="it">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">IT and<br>software</h2>
+                <p class="font-Righteous p-5 text-slate-600">110 Courses</p>
+            </div>
+
+            <!-- graphic -->
+            <div  class=" bg-white m-5 rounded-xl flex flex-col items-center p-10 ">
+                <img src="../assets/graphic.png" alt="graphic">
+                <h2 class="font-Righteous text-2xl p-5 text-center ">Graphic<br>Design</h2>
+                <p class="font-Righteous p-5 text-slate-600">85 Courses</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- subscribe -->
+    <div class=" flex justify-center  ">
+
+        <div class="text-center relative rounded-xl bg-gradient-to-r  from-blue-300  via-indigo-600  to-purple-700 px-40 py-10 my-20">
+            <h1 class="font-Righteous text-5xl text-white p-5 leading-tight">Subscribe For Get Update<br>Every New Courses</h1>
+            <p class="font-Righteous text-sm text-white pb-6">20k+ students daily learn with Eduvi. Subscribe for new courses. </p>
+
+            <!-- input-lable -->
+            <div class="flex  rounded  font-Righteous  ">
+                <input type="text" placeholder="enter your email"
+                class="w-full border-none   text-1xl px-3 py-4 opacity-30 bg-white outline-none focus:outline-none ">
+
+                <button class="flex items-center bg-blue-800 px-7  text-white  rounded text-1xl font-Righteous">Subscribe</button>
+            </div>
+
+
+            <!-- Ellipse-img -->
+            <img src="../assets/Ellipse 1.png" alt="Ellipse" width="40px" class="absolute top-5 left-10">
+            <img src="../assets/Ellipse 2.png" alt="Ellipse" width="40px" class="absolute top-28 left-28">
+            <img src="../assets/Ellipse 3.png" alt="Ellipse" width="40px" class="absolute bottom-10 left-14">
+            <img src="../assets/Ellipse 4.png" alt="Ellipse" width="40px" class="absolute top-5 right-10">
+            <img src="../assets/Ellipse 5.png" alt="Ellipse" width="40px" class="absolute top-28 right-28">
+            <img src="../assets/Ellipse 6.png" alt="Ellipse" width="40px" class="absolute bottom-10 right-14">
+            
+            <!-- Triangle-1,2-->
+            <img src="../assets/tirangle Polygon .png" class="absolute top-0 left-96  mix-blend-multiply ">
+            <img src="../assets/tirangle Polygon .png" class="absolute -bottom-10 -left-10 mix-blend-multiply">
+              
+        </div>
+    </div>
+
+    <!-- Triangle-3 --> 
+    
+    <div class="flex justify-end mx-auto container ">
+        <img src="../assets/tirangle Polygon .png">
+    </div>
+
+    <!-- video -->
+    <div class=" flex  justify-center">
+
+        <div class="relative">
+
+            <img src="../assets/Rectangle .png" alt="video">
+            <img src="../assets/play btn.png" alt="play" width="20%" class="absolute top-1/3 right-1/3">
+
+            <!-- banner -->
+            <img src="../assets/banner_right.png" alt="video" class="absolute  -right-32 bottom-0 ">
+        </div>
+    </div> 
+
+    
+
+    <div class="w-full bg-gradient-to-b from-white to-blue-200">
+
+        <!-- Testimonials -->
+        <div class="text-center relative w-full my-20 py-10">
+            <h1 class="font-Righteous text-5xl text-blue-700 pb-3">Testimonials</h1>
+            <p class="font-Righteous text-2xl text-slate-600 pt-4">What our student say abouts as</p>
+
+            <div class="bg-blue-300 w-20 h-10 rounded-t-full -rotate-45 absolute top-10 left-20"></div>
+        </div>
+
+        <div class="flex flex-wrap relative w-auto m-10 p-10 justify-around ">
+
+            <!--Card-1 -->
+            <div class="relative w-auto">
+                <img src="../assets/student.png" alt="student" class="absolute top-0 right-56  ">
+
+                <div class=" bg-white shadow-lg  px-8 py-5 my-10">
+                    <p class="font-Righteous text-sm text-slate-600 leading-8">Such an amazing traniner and easily understand the entire<br> syllabus, and the guidence will be super and good to  the way<br>of explaing. </p>
+
+                    <!-- star -->
+                    <div class="flex pt-7">
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>                        
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-violet-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card-2-->
+            <div class="relative w-auto">
+                <img src="../assets/student.png" alt="student" class="absolute top-0 right-56  ">
+
+                <div class=" bg-white shadow-lg  px-8 py-5 my-10">
+                    <p class="font-Righteous text-sm text-slate-600 leading-8">Such an amazing traniner and easily understand the entire<br> syllabus, and the guidence will be super and good to  the way<br>of explaing. </p>
+
+                    <!-- star -->
+                    <div class="flex pt-7">
+        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>                        
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-violet-300">
+                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                        </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+            <!--Card-3-->
+            <div class="absolute top-0 ">
+                <div class="relative w-auto top-11">
+                    
+                    <img src="../assets/student.png" alt="student" class="absolute -inset-y-10 left-48">
+    
+                    <div class=" bg-white shadow-lg  px-8 py-5 ">
+                        <p class="font-Righteous text-sm text-slate-600 leading-8">Such an amazing traniner and easily understand the entire<br> syllabus, and the guidence will be super and good to  the way<br>of explaing. </p>
+
+                        <!-- star -->
+                        <div class="flex pt-7">
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>
+                              
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>
+                                
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>                        
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-yellow-300">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-violet-300">
+                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                            </svg>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- arrows -->
+        <div class=" flex justify-end  p-10 ">
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10  text-blue-700">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+        
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10  text-blue-700">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+ 
+    
+
+    <!-- footer -->
+    <footer class="bg-gradient-to-r  from-purple-600 from-40%  to-blue-400 to-90%">
+
+        <div class="flex flex-wrap justify-between mx-16 py-5">
+
+            <!-- Connect -->
+            <ul class="p-8">
+                <li class="font-Righteous text-2xl text-center">Connect</li>
+                <li>
+                    <img src="../assets/Askmeidentity -logo.png" alt="logo" class="mix-blend-multiply">
+                </li>
+                <li class="font-Righteous text-sm  text-slate-900">Sri Jagannath nivas,8-1-164/345/A/1.<br>Pragati colony, mailardevpally,nawab<br>saheb kunta,Hyd,500005</li>
+            </ul>
+
+            <!-- classes -->
+            <ul class="font-Righteous text-lg leading-10 p-8">
+                <li class="text-2xl"> Classes</li>
+                <li>classroom courses</li>
+                <li>virtual classroom courses</li>
+                <li>E-learning courses</li>
+                <li>video courses</li>
+                <li>offline courses</li>
+            </ul>
+
+            <!-- Community -->
+            <ul class="font-Righteous text-lg leading-10 p-8">
+                <li class="text-2xl">Community</li>
+                <li>Learners</li>
+                <li>Parteners</li>
+                <li>Developers</li>
+                <li>Transactions</li>
+                <li>Blog</li>
+            </ul>
+
+            <!-- Quick Links -->
+            <ul class="font-Righteous text-lg leading-10 p-8">
+                <li class="text-2xl">Quick links</li>
+                <li>Home</li>
+                <li>Professional Education</li>
+                <li>Courses</li>
+                <li>Admissions</li>
+                <li>Testimonial</li>
+                <li>programs</li>
+            </ul>
+
+            <!-- More -->
+            <ul class="font-Righteous text-lg leading-10 p-8">
+                <li class="text-2xl">More</li>
+                <li>press</li>
+                <li>Investors</li>
+                <li>Team</li>
+                <li>privacy</li>
+                <li>Help</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <!-- social media -->
+        <div class="bg-gradient-to-r   from-purple-500  to-blue-500">
+            <ul class="flex flex-wrap justify-center items-center ">
+
+                <!-- instagram -->
+                <a href="#instagram">
+                    <li class="w-16 h-16 bg-white rounded-full m-3 relative">
+                        <img src="../assets/Instagram.png" alt="instagram" class="absolute top-3 right-3">
+                    </li>
+                </a>
+
+                <!-- whatsapp -->
+                 <a href="#whatsapp">
+                    <li class="w-16 h-16 bg-white rounded-full m-3 relative">
+                        <img src="../assets/WhatsApp.png" alt="whatsapp" class="absolute top-3 right-3">
+                    </li>
+                </a>
+
+                <!-- twitter -->
+                <a href="#twitter">
+                    <li class="w-16 h-16 bg-white rounded-full m-3 relative">
+                        <img src="../assets/Twitter.png" alt="twitter" class="absolute top-3 right-3">
+                    </li>
+                </a>
+
+                <!-- linkedin -->
+                <a href="#linkedin">
+                    <li class="w-16 h-16 bg-white rounded-full m-3 relative">
+                        <img src="../assets/LinkedIn.png" alt="linkedin" class="absolute top-3 right-3">
+                    </li>
+                </a>
+
+                <!-- youtube -->
+                <a href="#youtube">
+                    <li class="w-16 h-16 bg-white rounded-full m-3 relative">
+                        <img src="../assets/YouTube.png" alt="youtube" class="absolute top-3 right-3">
+                    </li>
+                </a>   
+            </ul> 
+        </div>
+
+        <div class="bg-gradient-to-r   from-blue-500 from-10%  to-blue-700 to-90%">
+            <p class="font-Righteous text-white text-xs text-center">Copyright @ 2023 Askmeidentity. All Rights Reserved</p>
+        </div> 
+    </footer>
+    
+    
+
+
+</body>
+</html>
